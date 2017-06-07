@@ -659,3 +659,8 @@
     text: "Berlin, 1945. There is a foley soundtrack added to this movie, but whoever did it did not add any voices. Berlin in 1945 seems so silent, like no-one is talking any more &#8211; there are just sounds of people walking and vehicles passing."
     link: "https://www.youtube.com/watch?v=R5i9k7s9X_A"
     category: "cat_2"
+  -
+    link: 'http://postconscio.us/'
+    title: 'Internet''s internal monologue'
+    text: 'It pulls the latest posts from Twitter, and reads them aloud using Speech Cloud text-to-speech.'
+    category: cat_17
