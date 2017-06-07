@@ -1,7 +1,7 @@
 {
-  "name": "middleman-site",
+  "name": "links",
   "version": "0.0.1",
-  "description": "Starter for Middleman websites",
+  "description": "personal links collection",
   "scripts": {
     "webpack": "webpack --watch",
     "middleman": "bundle exec middleman server",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adekbadek/middleman-site.git"
+    "url": "git+https://github.com/adekbadek/links.git"
   },
   "author": "Adam Borowski",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adekbadek/middleman-site/issues"
+    "url": "https://github.com/adekbadek/links/issues"
   },
-  "homepage": "https://github.com/adekbadek/middleman-site#readme",
+  "homepage": "https://github.com/adekbadek/links#readme",
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.7",
