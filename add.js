@@ -6,6 +6,7 @@ const YAML = require('yamljs')
 const validUrl = require('valid-url')
 
 const categories = YAML.load('./data/categories.yml')
+const links = YAML.load('./data/links.yml')
 
 const categoryIds = Object.keys(categories)
 const categoryChoices = R.values(categories).map((o, i) => ({
@@ -13,14 +14,22 @@ const categoryChoices = R.values(categories).map((o, i) => ({
   value: categoryIds[i], name: o.name
 }))
 
+const validateLink = link => {
+  if (!validUrl.isUri(link)) {
+    return 'valid URL please'
+  }
+  if (R.find(v => v.link === link, links)) {
+    return 'this link is already there'
+  }
+  return true
+}
+
 inquirer.prompt([
   {
     type: 'input',
     name: 'link',
     message: 'link',
-    validate: link => {
-      return !!validUrl.isUri(link) || 'valid URL please'
-    }
+    validate: validateLink
   },
   {
     type: 'input',
