@@ -664,3 +664,8 @@
     title: 'Internet''s internal monologue'
     text: 'It pulls the latest posts from Twitter, and reads them aloud using Speech Cloud text-to-speech.'
     category: cat_17
+  -
+    link: 'http://radiooooo.com/'
+    title: Radiooooo
+    text: 'Listen to music from a particular time and a particular place'
+    category: cat_17
