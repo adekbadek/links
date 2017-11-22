@@ -7,7 +7,9 @@
     "middleman": "bundle exec middleman server",
     "dev": "concurrently --prefix \"{name}\" --names \"MM,WEBPACK\" -c \"bgBlue,bgGreen\" \"npm run middleman\" \"npm run webpack\"",
     "build": "rm -rf build && bundle exec middleman build",
-    "bd": "npm run build && better-npm-run deploy"
+    "deploy": "better-npm-run deploy",
+    "bd": "npm run build && npm run deploy",
+    "add": "node ./add.js"
   },
   "betterScripts": {
     "deploy": {
