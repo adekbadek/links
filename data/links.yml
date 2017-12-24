@@ -669,3 +669,8 @@
     title: Radiooooo
     text: 'Listen to music from a particular time and a particular place'
     category: cat_17
+  -
+    link: 'https://waitbutwhy.com/2017/04/neuralink.html'
+    title: 'Truly amazing article about brain-machine interfaces'
+    text: 'WBW explains: 1. how the brain evolved, 2. how can we try to interface with it via a computer, 3. what does it mean for the future of humanity'
+    category: cat_6
