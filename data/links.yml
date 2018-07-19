@@ -674,3 +674,8 @@
     title: 'Truly amazing article about brain-machine interfaces'
     text: 'WBW explains: 1. how the brain evolved, 2. how can we try to interface with it via a computer, 3. what does it mean for the future of humanity'
     category: cat_6
+  -
+    link: 'https://iotdarwinaward.com/post/improve-your-privacy-in-age-of-mass-surveillance/'
+    title: 'Privacy tips for the properly paranoid'
+    text: 'about improving privacy in the age of mass surveillance - from browser plugins, through Tor,  to burner phones '
+    category: cat_12
