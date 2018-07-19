@@ -9,5 +9,9 @@ const instance = Bricks({
   ]
 })
 
-instance.resize(true)
-instance.pack()
+setTimeout(() => {
+  instance.resize(true)
+  setTimeout(() => {
+    instance.pack()
+  }, 1)
+}, 1)
