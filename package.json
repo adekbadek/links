@@ -8,14 +8,15 @@
     "dev": "concurrently --prefix \"{name}\" --names \"MM,WEBPACK\" -c \"bgBlue,bgGreen\" \"npm run middleman\" \"npm run webpack\"",
     "build": "rm -rf build && bundle exec middleman build",
     "deploy": "better-npm-run deploy",
-    "bd": "npm run build && npm run deploy"
+    "bd": "npm run build && npm run deploy",
+    "add": "node add.js"
   },
   "betterScripts": {
     "deploy": {
       "command": "rsync -avze 'ssh' --delete build/ ${SSH}:${SSH_DIR}",
       "env": {
         "SSH": "ostia",
-        "SSH_DIR": "/home/ostia/adamboro.com/www/links"
+        "SSH_DIR": "/home/ostia/adamboro.com/projs/links"
       }
     }
   },
